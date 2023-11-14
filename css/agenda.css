@@ -1,0 +1,9 @@
+main{padding-top: 3vh;padding-bottom: 3vh;}
+
+table td, table tr{border: 3px black solid;background-color: crimson;}
+
+table{width: 20%;}
+
+.agendatext{float:left;}
+
+div img{width: 14vh;height: 14vh;}

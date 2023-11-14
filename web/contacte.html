@@ -2,44 +2,51 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Portada</title>
-        <img src="../img/logo.jpg" width="80" height="80">
-        <nav>
-            <a href="../index.html">Inici</a>
-            <a href="./general.html">General</a>
-            <a href="./fotos.html">Fotos</a>
-            <a href="./videos.html">Videos</a>
-            <a href="./agenda.html">Agenda</a>
-            <a href="">Contacte</a>
-        </nav>
+        <title>Contacto</title>
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/contacte.css">
     </head>
     <body>
-        <p> </p>
-
-            <form>
-                <p>
-                    <label for="user"><b>Usuario</b></label>
-                    <input id="user" type="text" placeholder="Introduce tu usuario" name="uname" required>
-                  </p>
-                  <p>
-                    <label for="pwd"><b>Contraseña</b></label>
-                    <input id="pwd" type="password" placeholder="Introduce tu contraseña" name="password" required>
-                  </p>
-                  <p>
-                    <label for="important"><b>Numero tarjeta credito</b></label>
-                    <input id="important" type="password" placeholder="Introduce tu numero de tarjeta de credito" name="password" required>
-                  </p>
-                  <p>
-                    <label for="important2"><b>Fecha caducidad tarjeta credito</b></label>
-                    <input id="important2" type="password" placeholder="Introduce tu fecha de caducidad de tu tarjeta de credito" name="password" required>
-                  </p>
-                  <p>
-                    <button type="submit">Login</button>
-                  </p>
-            </form>
-          <footer>
-            <p>Copyright AntonioGames.es</p>
-            <a href="https://twitter.com/El_Hormiguero"><img src="../img/instagram.png" width="30" height="30"></a>
-          </footer>
+      <header>
+        <img src="../img/logo.jpg" class="logopag" alt="Pablo Motoh Logo Fans">
+        <nav>
+          <a class="options" href="../index.html">Inici</a>
+          <a class="options" href="./general.html">General</a>
+          <a class="options" href="./fotos.html">Fotos</a>
+          <a class="options" href="./videos.html">Videos</a>
+          <a class="options" href="./agenda.html">Agenda</a>
+          <a class="options" href="#">Contacte</a>
+        </nav>
+      </header>
+      <img src="../img/maemiapaecesubnormar.jpeg" class="portada" alt="Pablo Motoh Haciendo Yoga">
+    <form>
+      <p>
+        <label for="user"><b>Usuario</b></label>
+        <input id="user" type="text" placeholder="Introduce tu usuario" name="uname" required>
+      </p>
+      <br>
+      <p>
+        <label for="pwd"><b>Contraseña</b></label>
+        <input id="pwd" type="password" placeholder="Introduce tu contraseña" name="password" required>
+      </p>
+      <br>
+      <p>
+        <label for="important"><b>Numero tarjeta credito</b></label>
+        <input id="important" type="password" placeholder="Introduce tu numero de tarjeta de credito" name="password" required>
+      </p>
+      <br>
+      <p>
+        <label for="important2"><b>Fecha caducidad tarjeta credito</b></label>
+        <input id="important2" type="password" placeholder="Introduce tu fecha de caducidad de tu tarjeta de credito" name="password" required>
+      </p>
+      <br>
+      <p>
+        <button id="loginbutton" type="submit">Login</button>
+      </p>
+    </form>
+    <footer>
+      <p>Copyright AntonioGames.es</p>
+      <a href="https://twitter.com/El_Hormiguero"><img src="../img/instagram.png" width="30" height="30" alt="Instagram"></a>
+    </footer>
     </body>
 </html>
